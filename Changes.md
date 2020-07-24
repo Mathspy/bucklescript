@@ -1023,12 +1023,12 @@ Incompatible changes (to better support Windows):
   total 96
   drwxr-xr-x  14 hzhang295  staff  476 Sep 20 17:26 .
   drwxr-xr-x   4 hzhang295  staff  136 Sep 20 17:27 ..
-  lrwxr-xr-x   1 hzhang295  staff   22 Sep 20 17:26 bsc -> ../bs-platform/bin/bsc
-  lrwxr-xr-x   1 hzhang295  staff   25 Sep 20 17:26 bspack -> ../bs-platform/bin/bspack
-  lrwxr-xr-x   1 hzhang295  staff   24 Sep 20 17:26 bsppx -> ../bs-platform/bin/bsppx
+  lrwxr-xr-x   1 hzhang295  staff   22 Sep 20 17:26 bsc -> ../bs-platform-fix/bin/bsc
+  lrwxr-xr-x   1 hzhang295  staff   25 Sep 20 17:26 bspack -> ../bs-platform-fix/bin/bspack
+  lrwxr-xr-x   1 hzhang295  staff   24 Sep 20 17:26 bsppx -> ../bs-platform-fix/bin/bsppx
   ```
 
-  Now these symlinks are removed. You have to refer to `bs-platform/bin/bsc.exe`.
+  Now these symlinks are removed. You have to refer to `bs-platform-fix/bin/bsc.exe`.
 
 Features:
 - #787, add an option `-bs-no-warn-unused-bs-attribute`

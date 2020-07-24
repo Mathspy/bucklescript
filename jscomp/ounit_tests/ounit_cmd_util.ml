@@ -91,7 +91,7 @@ let perform_bsc args =
   perform bsc_exe 
     (Array.append 
        [|bsc_exe ; 
-         "-bs-package-name" ; "bs-platform"; 
+         "-bs-package-name" ; "bs-platform-fix"; 
          "-bs-no-version-header"; 
          "-bs-cross-module-opt";
          "-w";

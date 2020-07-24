@@ -155,12 +155,12 @@ Runtime performance of identical functionality:
 - Basic data types are closely matched (Array -> Array, Tuple -> Array, etc)
 - BuckleScript can also emit `.d.ts` files for TypeScript compiler (*experimental*)
 
-- [Publish and consume npm packages out of box](https://www.npmjs.com/package/bs-platform)
+- [Publish and consume npm packages out of box](https://www.npmjs.com/package/bs-platform-fix)
 - [OCaml standard library consumed by Javascript developers](http://caml.inria.fr/pub/docs/manual-ocaml/stdlib.html)
-- [Demo](https://tonicdev.com/npm/bs-platform)
+- [Demo](https://tonicdev.com/npm/bs-platform-fix)
 ```ocaml
-var Array = require("bs-platform/lib/js/array")
-var String = require("bs-platform/lib/js/string")
+var Array = require("bs-platform-fix/lib/js/array")
+var String = require("bs-platform-fix/lib/js/string")
 String.concat(",",Array.to_list(["hello","bucklescript"]))
 ```
 

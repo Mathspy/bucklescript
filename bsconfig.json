@@ -1,5 +1,5 @@
 {
-  "name": "bs-platform",
+  "name": "bs-platform-fix",
   "version": "7.0.0",
   "sources": {
     "dir": "jscomp/test/"

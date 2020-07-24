@@ -209,7 +209,7 @@ JS output size:
 - `.mli` is respected
 - Basic data types are closely matched (Array -> Array, Tuple -> Array, etc)
 - BuckleScript can also emit `.d.ts` files for TypeScript compiler (*experimental*)
-- [Publish and consume npm packages out of box](https://www.npmjs.com/package/bs-platform)
+- [Publish and consume npm packages out of box](https://www.npmjs.com/package/bs-platform-fix)
 - [Call OCaml library from JS side](http://bucklescript.github.io/bucklescript-playground/#Use_OCaml_Standard_Library)
 
 ===
@@ -324,7 +324,7 @@ external http : http  = ""  [@@bs.module]
 - `Test_http_server`
 
 ```js
-var Pervasives = require("bs-platform/lib/js/pervasives");
+var Pervasives = require("bs-platform-fix/lib/js/pervasives");
 var Http       = require("http");
 
 var hostname = "127.0.0.1";
@@ -349,7 +349,7 @@ create_server(Http);
 
 Installation
 ```
-npm install bs-platform
+npm install bs-platform-fix
 ```
 
 Create a JSON file to describe the build spec:

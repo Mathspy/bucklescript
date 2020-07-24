@@ -6,10 +6,10 @@ BuckleScript provide some project templates, to help people get started on board
 
 [source,sh]
 --------------
-npm install -g bs-platform && bsb -init hello && cd hello && npm run build
+npm install -g bs-platform-fix && bsb -init hello && cd hello && npm run build
 --------------
 
-First, it installs `bs-platform` globally, then we use the command line tool `bsb` to set up a sample project named `hello`, then we run the build.
+First, it installs `bs-platform-fix` globally, then we use the command line tool `bsb` to set up a sample project named `hello`, then we run the build.
 
 The output project layout is similar as below
 
@@ -24,7 +24,7 @@ hello>tree -d .
 │   └── js
 │       └── src
 ├── node_modules
-│   └── bs-platform -> ...
+│   └── bs-platform-fix -> ...
 └── src
 -----------
 
@@ -57,7 +57,7 @@ Currently there are not too many  project templates, you can contribute more pro
 ----
 {
     "dependencies": {
-        "bs-platform": "1.7.0" // <1>
+        "bs-platform-fix": "1.7.0" // <1>
     },
     "scripts" : {
         "build" : "bsb",
@@ -130,7 +130,7 @@ will call `fib`.
 ----------
 {
     "dependencies": {
-        "bs-platform": "1.7.0"
+        "bs-platform-fix": "1.7.0"
     },
     "scripts" : {
         "build" : "bsb",

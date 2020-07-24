@@ -2015,7 +2015,7 @@ The compiler would generate code as below:
 [source,js]
 ----------
  var Assert = require("assert");
- var List = require("bs-platform/lib/js/list");
+ var List = require("bs-platform-fix/lib/js/list");
 
 function assert_equal(prim, prim$1) {
  return Assert.deepEqual(prim, prim$1);

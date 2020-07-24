@@ -155,7 +155,7 @@ let check_version_exit (map : json_map) stdlib_path =
     if str <> Bs_version.version then 
       begin
         Format.fprintf Format.err_formatter
-          "@{<error>bs-platform version mismatch@} Running bsb @{<info>%s@} (%s) vs vendored @{<info>%s@} (%s)@."
+          "@{<error>bs-platform-fix version mismatch@} Running bsb @{<info>%s@} (%s) vs vendored @{<info>%s@} (%s)@."
           Bs_version.version
           (Filename.dirname (Filename.dirname Sys.executable_name))
           str

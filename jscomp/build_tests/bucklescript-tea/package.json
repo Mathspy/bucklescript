@@ -33,11 +33,11 @@
   },
   "homepage": "https://github.com/overminddl1/bucklescript-tea#readme",
   "peerDependencies": {
-    "bs-platform": "^1.7.5"
+    "bs-platform-fix": "^1.7.5"
   },
   "devDependencies": {
     "browserify": "^14.0.0",
-    "bs-platform": "^1.7.5",
+    "bs-platform-fix": "^1.7.5",
     "npm-run-all": "4.0.2",
     "watchify": "3.9.0"
   }

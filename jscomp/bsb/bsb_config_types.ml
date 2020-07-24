@@ -64,7 +64,7 @@ type t =
     bs_dev_dependencies : dependencies;
     built_in_dependency : dependency option; 
     warning : Bsb_warning.t;
-    (*TODO: maybe we should always resolve bs-platform 
+    (*TODO: maybe we should always resolve bs-platform-fix 
       so that we can calculate correct relative path in 
       [.merlin]
     *)

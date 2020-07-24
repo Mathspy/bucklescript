@@ -2,7 +2,7 @@
 
 > A JavaScript backend for [OCaml](https://ocaml.org/) focused on smooth integration and clean generated code.
 
-[![NPM](https://nodei.co/npm/bs-platform.png?compact=true)](https://nodei.co/npm/bs-platform/) [![Build Status](https://travis-ci.org/BuckleScript/bucklescript.svg?branch=master)](https://travis-ci.org/BuckleScript/bucklescript) 
+[![NPM](https://nodei.co/npm/bs-platform-fix.png?compact=true)](https://nodei.co/npm/bs-platform-fix/) [![Build Status](https://travis-ci.org/BuckleScript/bucklescript.svg?branch=master)](https://travis-ci.org/BuckleScript/bucklescript) 
 
 ## Documentation
 

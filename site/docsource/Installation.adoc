@@ -1,10 +1,10 @@
 ## Installation
 
-### From https://www.npmjs.com/package/bs-platform[npm] (recommended for normal users)
+### From https://www.npmjs.com/package/bs-platform-fix[npm] (recommended for normal users)
 
 [source,sh]
 ------------------------
-npm install -g bs-platform
+npm install -g bs-platform-fix
 ------------------------
 
 It supports all platform including Windows

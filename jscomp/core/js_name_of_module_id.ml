@@ -74,7 +74,7 @@ let get_runtime_module_path
               current_package_info
               ~package_dir:(Lazy.force Ext_path.package_dir)
               module_system )
-          (*Invariant: the package path to bs-platform, it is used to 
+          (*Invariant: the package path to bs-platform-fix, it is used to 
             calculate relative js path
           *)
           ((Filename.dirname (Filename.dirname Sys.executable_name)) // dep_path // js_file)  

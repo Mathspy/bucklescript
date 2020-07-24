@@ -17,7 +17,7 @@
     "postinstall": "node scripts/install.js",
     "coverage": "nyc --timeout=3000 --reporter=html mocha jscomp/test/*test.js && open ./coverage/index.html"
   },
-  "name": "bs-platform",
+  "name": "bs-platform-fix",
   "version": "8.0.3",
   "description": "bucklescript compiler, ocaml standard libary by bucklescript and its required runtime support",
   "repository": {

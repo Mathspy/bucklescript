@@ -87,7 +87,7 @@ let suites =
   ],
   "license": "MIT",
   "devDependencies": {
-    "bs-platform": "${bsb:bs-version}"
+    "bs-platform-fix": "${bsb:bs-version}"
   }
 }
 |} {|
@@ -106,7 +106,7 @@ let suites =
   ],
   "license": "MIT",
   "devDependencies": {
-    "bs-platform": "bs-version"
+    "bs-platform-fix": "bs-version"
   }
 }
 |}

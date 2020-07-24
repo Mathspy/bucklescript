@@ -44,7 +44,7 @@ characteristics of typescript: one OCaml module compiled into one JavaScript mod
 
 [source,sh]
 -----------
-npm install -g bs-platform
+npm install -g bs-platform-fix
 -----------
 
 #### Enjoy!

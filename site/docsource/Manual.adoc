@@ -97,7 +97,7 @@ include::./Differences-from-js_of_ocaml.adoc[]
 [appendix]
 == Library API documentation
 
-There is a small library that comes with `bs-platform`, its documentation is
+There is a small library that comes with `bs-platform-fix`, its documentation is
 http://bucklescript.github.io/bucklescript/api/[here].
 
 

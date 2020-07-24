@@ -43,7 +43,7 @@ below is a configuration to help you get auto-completion and validation for free
 }
 ------------
 
-The build system is installed as `bsb.exe` in `bs-platform/bin/bsb.exe`. Due to a known issue in npm,
+The build system is installed as `bsb.exe` in `bs-platform-fix/bin/bsb.exe`. Due to a known issue in npm,
 we create a JS wrapper (which is accessible in `.bin` too) so the user can call
 either `bsb` (slightly higher latency but symlinked into `.bin`) or `bsb.exe`
 
@@ -212,11 +212,11 @@ Below is a json configuration for the https://github.com/OvermindDL1/bucklescrip
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
-    "bs-platform": "^1.7.0" // <1>
+    "bs-platform-fix": "^1.7.0" // <1>
   }
 }
 -----------
-<1> Here we list `bs-platform` as a peer dependency so that different repos shares the same compiler.
+<1> Here we list `bs-platform-fix` as a peer dependency so that different repos shares the same compiler.
 
 Now, if we have a repo https://github.com/bobzhang/bucklescript-have-tea[bucklescript-have-tea] which depends on `bucklescript-tea`, its configurations are as below:
 
@@ -240,18 +240,18 @@ Now, if we have a repo https://github.com/bobzhang/bucklescript-have-tea[buckles
     "name" : "bucklescript-have-tea",
     "version" : "0.1.0",
     "dependencies" : { "bucklescript-tea" : "^0.1.2" }, // <1>
-    "peerDependencies" : { "bs-platform" : "^1.7.0" } //<2>
+    "peerDependencies" : { "bs-platform-fix" : "^1.7.0" } //<2>
 }
 -----------
 <1> List `bucklescript-tea` as dependency
-<2> List `bs-platform` as peer dependency
+<2> List `bs-platform-fix` as peer dependency
 
 Suppose you are in `bucklescript-have-tea` top directory,
 
 [source,sh]
 ----------
 npm install // <1>
-npm install bs-platform <2>
+npm install bs-platform-fix <2>
 ./node_modules/.bin/bsb -clean-world -make-world -w <3>
 ----------
 <1> Install the dependencies

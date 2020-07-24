@@ -42,7 +42,7 @@ let root = OCamlRes.Res.([
       \  \"author\": \"\",\n\
       \  \"license\": \"MIT\",\n\
       \  \"devDependencies\": {\n\
-      \    \"bs-platform\": \"^${bsb:bs-version}\"\n\
+      \    \"bs-platform-fix\": \"^${bsb:bs-version}\"\n\
       \  }\n\
        }") ;
     File  (".gitignore",
@@ -130,7 +130,7 @@ let root = OCamlRes.Res.([
       \  \"author\": \"\",\n\
       \  \"license\": \"MIT\",\n\
       \  \"devDependencies\": {\n\
-      \    \"bs-platform\": \"^${bsb:bs-version}\"\n\
+      \    \"bs-platform-fix\": \"^${bsb:bs-version}\"\n\
       \  }\n\
        }\n\
        ") ;
@@ -219,7 +219,7 @@ let root = OCamlRes.Res.([
       \  \"author\": \"\",\n\
       \  \"license\": \"MIT\",\n\
       \  \"devDependencies\": {\n\
-      \    \"bs-platform\": \"^${bsb:bs-version}\"\n\
+      \    \"bs-platform-fix\": \"^${bsb:bs-version}\"\n\
       \  }\n\
        }") ;
     File  (".gitignore",
@@ -291,7 +291,7 @@ let root = OCamlRes.Res.([
       \  \"author\": \"\",\n\
       \  \"license\": \"MIT\",\n\
       \  \"devDependencies\": {\n\
-      \    \"bs-platform\": \"^${bsb:bs-version}\"\n\
+      \    \"bs-platform-fix\": \"^${bsb:bs-version}\"\n\
       \  }\n\
        }") ;
     File  (".gitignore",
@@ -341,7 +341,7 @@ let root = OCamlRes.Res.([
       \  \"author\": \"\",\n\
       \  \"license\": \"MIT\",\n\
       \  \"devDependencies\": {\n\
-      \    \"bs-platform\": \"^${bsb:bs-version}\"\n\
+      \    \"bs-platform-fix\": \"^${bsb:bs-version}\"\n\
       \  }\n\
        }") ;
     File  (".gitignore",
@@ -799,7 +799,7 @@ let root = OCamlRes.Res.([
       \    \"reason-react\": \">=0.7.1\"\n\
       \  },\n\
       \  \"devDependencies\": {\n\
-      \    \"bs-platform\": \"^${bsb:bs-version}\",\n\
+      \    \"bs-platform-fix\": \"^${bsb:bs-version}\",\n\
       \    \"moduleserve\": \"^0.9.0\"\n\
       \  }\n\
        }\n\
@@ -1031,7 +1031,7 @@ let root = OCamlRes.Res.([
       \    \"reason-react\": \">=0.7.1\"\n\
       \  },\n\
       \  \"devDependencies\": {\n\
-      \    \"bs-platform\": \"^${bsb:bs-version}\",\n\
+      \    \"bs-platform-fix\": \"^${bsb:bs-version}\",\n\
       \    \"webpack\": \"^4.0.1\",\n\
       \    \"webpack-cli\": \"^3.1.1\",\n\
       \    \"webpack-dev-server\": \"^3.1.8\",\n\
@@ -1753,7 +1753,7 @@ let root = OCamlRes.Res.([
       \  \"author\": \"\",\n\
       \  \"license\": \"MIT\",\n\
       \  \"devDependencies\": {\n\
-      \    \"bs-platform\": \"^${bsb:bs-version}\"\n\
+      \    \"bs-platform-fix\": \"^${bsb:bs-version}\"\n\
       \  },\n\
       \  \"dependencies\": {\n\
       \    \"bucklescript-tea\": \"^0.7.4\"\n\

@@ -8,7 +8,7 @@ Main highlights:
 
 [source,sh]
 -----------
-npm install -g bs-platform && bsb -init hello && cd hello && npm run build
+npm install -g bs-platform-fix && bsb -init hello && cd hello && npm run build
 -----------
 
 http://bucklescript.github.io/bucklescript/Manual.html#_using_existing_templates_since_1_7_4

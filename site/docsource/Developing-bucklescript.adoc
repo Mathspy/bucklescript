@@ -28,13 +28,13 @@ command path.
 Make sure you have `ocamlopt.opt` in your `$PATH` from the previous
 step, then do the following:
 
-`sh   cd ./jscomp   npm_package_name=bs-platform make world   export PATH=$(cwd)/jscomp/bin:$PATH`
+`sh   cd ./jscomp   npm_package_name=bs-platform-fix make world   export PATH=$(cwd)/jscomp/bin:$PATH`
 
 This install the compiler `bsc.exe` into `./jscomp/bin` and adds it to your
 current command path.
 
 
-// `sh   BS_RELEASE_BUILD=1 npm_package_name=bs-platform make world`
+// `sh   BS_RELEASE_BUILD=1 npm_package_name=bs-platform-fix make world`
 
 [[check-that-the-bucklescript-compiler-works]]
 Check that the BuckleScript compiler works
